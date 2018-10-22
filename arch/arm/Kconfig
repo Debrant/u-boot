@@ -833,6 +833,15 @@ config ARCH_ZYNQ
 	select DM_USB if USB
 	select BLK
 
+
+
+config TARGET_TIGER6
+	bool "Support tiger6"
+	select CPU_V7
+
+
+
+
 config ARCH_ZYNQMP
 	bool "Support Xilinx ZynqMP Platform"
 	select ARM64
@@ -1235,6 +1244,7 @@ source "board/compulab/cm_t43/Kconfig"
 source "board/creative/xfi3/Kconfig"
 source "board/denx/m28evk/Kconfig"
 source "board/denx/m53evk/Kconfig"
+source "board/digi/tiger6/Kconfig"
 source "board/freescale/ls2080a/Kconfig"
 source "board/freescale/ls2080aqds/Kconfig"
 source "board/freescale/ls2080ardb/Kconfig"

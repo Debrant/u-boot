@@ -1,0 +1,6 @@
+TIGER6 BOARD
+M:	Nathan Bryant <nbryant@tigerstop.com>
+S:	Supported
+F:	board/digi/tiger6/
+F:	include/configs/tiger6.h
+F:	configs/tiger6_defconfig

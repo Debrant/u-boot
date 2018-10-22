@@ -1,0 +1,16 @@
+if TARGET_TIGER6
+
+
+config SYS_BOARD
+	default "tiger6"
+
+config SYS_VENDOR
+	default "digi"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "tiger6"
+
+endif
